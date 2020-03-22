@@ -4,7 +4,8 @@ public class ToastService {
     
     private var _message : String = ""
     
-    public init(message : String) {
+    public init(message : String, description : String) {
+        _ = description
         self.setMessage(message: message)
     }
     
