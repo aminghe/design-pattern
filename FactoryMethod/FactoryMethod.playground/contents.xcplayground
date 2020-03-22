@@ -3,5 +3,8 @@
     <pages>
         <page name='1-problem one'/>
         <page name='2-solution for problem one'/>
+        <page name='3-problem two'/>
+        <page name='4-solutuin for problem two'/>
+        <page name='5-ShapeFactory'/>
     </pages>
 </playground>
