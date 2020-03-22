@@ -4,8 +4,8 @@ public class ToastService {
     
     private var _message : String = ""
     
-    public init() {
-        
+    public init(message : String) {
+        self.setMessage(message: message)
     }
     
     public func setMessage(message : String){
