@@ -1,12 +1,10 @@
 import Foundation
 
-public enum ButtonType {
-    case one
-    case two
-    case three
+public protocol ButtonFactoryProtocol {
+    func getInstance(type : ButtonType) -> ButtonProtocol
 }
 
-public class ButtonFactory {
+public class ButtonFactory : ButtonFactoryProtocol {
     
     public init() {}
     
