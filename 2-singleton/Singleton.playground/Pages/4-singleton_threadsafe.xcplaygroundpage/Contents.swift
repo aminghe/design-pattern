@@ -21,7 +21,7 @@ class Database {
             
             if(_shared == nil){
                 // here
-                DispatchQueue.global().sync {
+                DispatchQueue.global().sync(flags : .barrier) {
                     if(_shared == nil){
                         _shared = Database(name: "Main")
                     }
